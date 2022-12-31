@@ -1,0 +1,1224 @@
+/* Root */
+:root {
+    --primary: #E53E6A;
+    --primaryDark: #C12850;
+    --primarySoft: #FFF0CF;
+    --white: #FFFFFF;
+    --black: #212529;
+    --whiteSoft: #ECECEC;
+    --whiteSoft1: #F8F9FA;
+    --grey: #888888;
+    --background: #FFFFFF;
+    --transparent: transparent;
+    --red: #DC3545;
+    --yellow: #FFE420;
+    --blue: #17A2B8;
+}
+
+/* End Root */
+
+
+
+
+
+.accordion {
+    display: flex !important;
+    flex-direction: column !important;
+    row-gap: 1rem !important;
+    /* transition: all .3s; */
+    --bs-accordion-inner-border-radius: 2rem !important;
+}
+
+.accordion {
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='blue'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-item {
+    background-color: var(--white) !important;
+    border: 0 !important;
+    border-radius: 2rem !important;
+    padding: 0 !important;
+    /* transition: all .3s; */
+}
+
+.accordion-item:last-of-type .accordion-collapse {
+    /* border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem; */
+    border-radius: 2rem !important;
+}
+
+.accordion-button {
+    border-radius: 2rem !important;
+    background-color: var(--white) !important;
+}
+
+.accordion-button {
+    color: var(--black);
+    font-size: 21px;
+    letter-spacing: .04px;
+    /* line-height: 1.870rem; */
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.accordion-button:hover {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--white) !important;
+    background-color: var(--primary) !important;
+    box-shadow: none !important;
+    border-radius: 2rem 2rem 2rem 2rem !important;
+}
+
+.accordion-body {
+    color: var(--black);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+/* Body */
+body {
+    background-color: var(--background);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* End Body */
+
+/* Navbar */
+.navbar-gajihub {
+    background-color: var(--primary) !important;
+}
+
+.logo-navbar-gajihub {
+    width: 150px;
+}
+
+/* @media (max-width: 240px) {
+    .logo-navbar-gajihub {
+        width: 140px;
+    }
+} */
+
+.nav-link-navbar-gajihub {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link-navbar-gajihub:hover {
+    color: var(--yellow);
+}
+
+.nav-link-navbar-gajihub:active {
+    color: var(--yellow);
+}
+
+.nav-link-navbar-gajihub:focus {
+    color: var(--yellow);
+}
+
+/* End Navbar */
+
+/* Menu */
+.offcanvas-header {
+    padding: 1.5rem !important;
+}
+
+/* End Menu */
+
+/* Hero */
+.hero-gajihub {
+    background-color: var(--primary);
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 767.98px) {
+    .hero-gajihub {
+        background-color: var(--primary);
+        padding-top: 80px;
+        /* padding-bottom: 60px; */
+    }
+}
+
+.img-hero-gajihub {
+    width: 100%;
+    /* height: 350px;
+    border-radius: 2rem;
+    object-fit: cover;
+    background-color: var(--whiteSoft); */
+}
+
+.title-hero-gajihub {
+    color: var(--white);
+    font-size: 35px;
+    letter-spacing: .04px;
+    line-height: 2.87rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paragraph-hero-gajihub {
+    color: var(--whiteSoft);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+/* End Hero */
+
+/* Tentang */
+.tentang-gajihub {
+    background-color: var(--whiteSoft1);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title-content-tentang-gajihub {
+    color: var(--black);
+    font-size: 35px;
+    letter-spacing: .04px;
+    line-height: 2.87rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paragraph-content-tentang-gajihub {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-content-tentang-gajihub {
+    width: 100%;
+}
+/* End Tentang */
+
+/* Keunggulan */
+.keunggulan-gajihub {
+    background-color: var(--background);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title-keunggulan-gajihub {
+    color: var(--black);
+    font-size: 35px;
+    letter-spacing: .04px;
+    line-height: 2.87rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-content-keunggulan-gajihub {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 2rem;
+}
+
+.image-content-keunggulan-gajihub {
+    width: 90px;
+}
+
+.title-content-keunggulan-gajihub {
+    color: var(--black);
+    font-size: 21px;
+    letter-spacing: .04px;
+    line-height: 1.870rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paragraph-content-keunggulan-gajihub {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* End Keunggulan */
+
+/* Tutorial */
+.tutorial-gajihub {
+    background-color: var(--primary);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title-tutorial-gajihub {
+    color: var(--white);
+    font-size: 35px;
+    letter-spacing: .04px;
+    line-height: 2.87rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-content-tutorial-gajihub {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 2rem;
+}
+
+.image-content-tutorial-gajihub {
+    width: 100%;
+    border-radius: 2rem;
+    background-color: var(--whiteSoft);
+}
+/* End Tutorial */
+
+/* Harga */
+.harga-gajihub {
+    background-color: var(--background);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title-harga-gajihub {
+    color: var(--black);
+    font-size: 35px;
+    letter-spacing: .04px;
+    line-height: 2.87rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-content-harga-gajihub {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 2rem;
+}
+
+.title-content-harga-gajihub {
+    color: var(--black);
+    font-size: 21px;
+    letter-spacing: .04px;
+    line-height: 1.870rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.free-content-harga-gajihub span {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.free-content-harga-gajihub {
+    color: var(--yellow);
+    font-size: 51px;
+    letter-spacing: .04px;
+    line-height: 1.870rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pro-content-harga-gajihub span {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pro-content-harga-gajihub {
+    color: var(--primary);
+    font-size: 51px;
+    letter-spacing: .04px;
+    line-height: 1.870rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.elite-content-harga-gajihub span {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.elite-content-harga-gajihub {
+    color: var(--blue);
+    font-size: 51px;
+    letter-spacing: .04px;
+    line-height: 1.870rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subtitle-content-harga-gajihub {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-group-item-content-harga-gajihub {
+    color: var(--black);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list-group-item-content-harga-gajihub b {
+    color: var(--black);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-footer-content-harga-gajihub {
+    background-color: var(--white);
+    border: none;
+    border-radius: 0 0 2rem 2rem!important;
+    padding: 0 1rem 1rem 1rem!important;
+}
+/* End Harga */
+
+/* Testimonial */
+.testimonial-gajihub {
+    background-color: var(--whiteSoft1);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title-testimonial-gajihub {
+    color: var(--black);
+    font-size: 35px;
+    letter-spacing: .04px;
+    line-height: 2.87rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-content-testimonial-gajihub {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 2rem;
+}
+
+.image-content-testimonial-gajihub {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: var(--whiteSoft);
+}
+
+.title-content-testimonial-gajihub {
+    color: var(--black);
+    font-size: 21px;
+    letter-spacing: .04px;
+    line-height: 1.870rem;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subtitle-content-testimonial-gajihub {
+    color: var(--grey);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.paragraph-content-testimonial-gajihub {
+    color: var(--black);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+/* End Testimonial */
+
+/* Footer */
+.footer-gajihub {
+    background-color: var(--primaryDark) !important;
+    padding: 5rem 0 1rem 0;
+}
+
+.footer-brand {
+    padding-right: 1rem;
+}
+
+.logo-footer-gajihub {
+    width: 150px;
+}
+
+.paragraph-footer-gajihub {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-footer-gajihub {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 0 !important;
+}
+
+.social-footer-gajihub:hover {
+    color: var(--yellow);
+}
+
+.social-footer-gajihub:active {
+    color: var(--yellow);
+}
+
+.social-footer-gajihub:focus {
+    color: var(--yellow);
+}
+
+.social-footer-gajihub i {
+    font-size: 21px;
+}
+
+.social-footer-gajihub i:hover {
+    color: var(--yellow);
+}
+
+.social-footer-gajihub i:active {
+    color: var(--yellow);
+}
+
+.social-footer-gajihub i:focus {
+    color: var(--yellow);
+}
+
+/* .title-footer-gajihub {
+    color: var(--black);
+    font-size: 21px;
+    letter-spacing: .04px;
+    line-height: 1.870rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+} */
+
+.link-footer-gajihub {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    padding: 0 !important;
+}
+
+.link-footer-gajihub:hover {
+    color: var(--yellow);
+}
+
+.link-footer-gajihub:active {
+    color: var(--yellow);
+}
+
+.link-footer-gajihub:focus {
+    color: var(--yellow);
+}
+
+.copyright-footer-gajihub {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+    .copyright-footer-gajihub {
+        margin-right: auto;
+    }
+}
+
+/* End Footer */
+
+
+
+
+
+/* Link */
+a {
+    text-decoration: none;
+}
+
+/* End Link */
+
+/* Button Block */
+.button-block-gajihub {
+    padding: 7px 20px 7px 20px;
+    border-radius: 10rem;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .071em;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* End Button Block */
+
+/* Button Rounded */
+.button-rounded-gajihub {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 7px 7px 7px 7px;
+    /* font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .071em;
+    font-family: 'Poppins', sans-serif; */
+}
+
+.btn,
+.button-rounded-gajihub {
+    --bs-btn-padding-x: 0 !important;
+    --bs-btn-padding-y: 0 !important;
+}
+
+/* End Button Rounded */
+
+/* Button Primary */
+.button-primary-gajihub {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.button-primary-gajihub:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.button-primary-gajihub:active {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    box-shadow: none;
+}
+
+.button-primary-gajihub:focus {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    box-shadow: none;
+}
+
+.button-primary-gajihub:not(:disabled):not(.disabled).active,
+.button-primary-gajihub:not(:disabled):not(.disabled):active,
+.show>.button-primary-gajihub.dropdown-toggle {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+/* End Button Primary */
+
+/* Button Primary Soft */
+.button-primary-soft-gajihub {
+    color: var(--primary);
+    background-color: var(--transparent);
+    border-color: var(--transparent);
+}
+
+.button-primary-soft-gajihub:hover {
+    color: var(--primary);
+    background-color: var(--primarySoft);
+    border-color: var(--primarySoft);
+}
+
+.button-primary-soft-gajihub:active {
+    color: var(--primary);
+    background-color: var(--primarySoft);
+    border-color: var(--primarySoft);
+}
+
+.button-primary-soft-gajihub:focus {
+    color: var(--primary);
+    background-color: var(--primarySoft);
+    border-color: var(--primarySoft);
+    box-shadow: none;
+}
+
+.button-primary-soft-gajihub:not(:disabled):not(.disabled).active,
+.button-primary-soft-gajihub:not(:disabled):not(.disabled):active,
+.show>.button-primary-soft-gajihub.dropdown-toggle {
+    color: var(--primary);
+    background-color: var(--primarySoft);
+    border-color: var(--primarySoft);
+}
+
+/* End Button Primary Soft */
+
+/* Button Primary Outline */
+.button-primary-outline-gajihub {
+    color: var(--primary);
+    background-color: var(--transparent);
+    border-color: var(--primary);
+}
+
+.button-primary-outline-gajihub:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.button-primary-outline-gajihub:active {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+.button-primary-outline-gajihub:focus {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    box-shadow: none;
+}
+
+.button-primary-outline-gajihub:not(:disabled):not(.disabled).active,
+.button-primary-outline-gajihub:not(:disabled):not(.disabled):active,
+.show>.button-primary-outline-gajihub.dropdown-toggle {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* End Button Primary Outline */
+
+/* Button Red */
+.button-red-gajihub {
+    color: var(--white);
+    background-color: var(--red);
+    border-color: var(--red);
+}
+
+.button-red-gajihub:hover {
+    color: var(--white);
+    background-color: var(--red);
+    border-color: var(--red);
+}
+
+.button-red-gajihub:active {
+    color: var(--white);
+    background-color: var(--red);
+    border-color: var(--red);
+    box-shadow: none;
+}
+
+.button-red-gajihub:focus {
+    color: var(--white);
+    background-color: var(--red);
+    border-color: var(--red);
+    box-shadow: none;
+}
+
+.button-red-gajihub:not(:disabled):not(.disabled).active,
+.button-red-gajihub:not(:disabled):not(.disabled):active,
+.show>.button-red-gajihub.dropdown-toggle {
+    color: var(--white);
+    background-color: var(--red);
+    border-color: var(--red);
+}
+/* End Button Red */
+
+/* Button Yellow */
+.button-yellow-gajihub {
+    color: var(--black);
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.button-yellow-gajihub:hover {
+    color: var(--black);
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+.button-yellow-gajihub:active {
+    color: var(--black);
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    box-shadow: none;
+}
+
+.button-yellow-gajihub:focus {
+    color: var(--black);
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    box-shadow: none;
+}
+
+.button-yellow-gajihub:not(:disabled):not(.disabled).active,
+.button-yellow-gajihub:not(:disabled):not(.disabled):active,
+.show>.button-yellow-gajihub.dropdown-toggle {
+    color: var(--black);
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+/* End Button Yellow */
+
+/* Button Blue */
+.button-blue-gajihub {
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
+.button-blue-gajihub:hover {
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+
+.button-blue-gajihub:active {
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--blue);
+    box-shadow: none;
+}
+
+.button-blue-gajihub:focus {
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--blue);
+    box-shadow: none;
+}
+
+.button-blue-gajihub:not(:disabled):not(.disabled).active,
+.button-blue-gajihub:not(:disabled):not(.disabled):active,
+.show>.button-blue-gajihub.dropdown-toggle {
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--blue);
+}
+/* End Button Blue */
+
+/* Button White Soft */
+.button-white-soft-gajihub {
+    color: var(--primary);
+    background-color: var(--whiteSoft);
+    border-color: var(--whiteSoft);
+}
+
+.button-white-soft-gajihub:hover {
+    color: var(--primary);
+    background-color: var(--whiteSoft);
+    border-color: var(--whiteSoft);
+}
+
+.button-white-soft-gajihub:active {
+    color: var(--primary);
+    background-color: var(--whiteSoft);
+    border-color: var(--whiteSoft);
+    box-shadow: none;
+}
+
+.button-white-soft-gajihub:focus {
+    color: var(--primary);
+    background-color: var(--whiteSoft);
+    border-color: var(--whiteSoft);
+    box-shadow: none;
+}
+
+.button-white-soft-gajihub:not(:disabled):not(.disabled).active,
+.button-white-soft-gajihub:not(:disabled):not(.disabled):active,
+.show>.button-white-soft-gajihub.dropdown-toggle {
+    color: var(--primary);
+    background-color: var(--whiteSoft);
+    border-color: var(--whiteSoft);
+}
+
+/* End Button White Soft */
+
+/* Button Disable */
+.button-disable-gajihub {
+    color: var(--white);
+    background-color: var(--grey);
+    border-color: var(--grey);
+}
+
+.button-disable-gajihub:hover {
+    color: var(--white);
+    background-color: var(--grey);
+    border-color: var(--grey);
+}
+
+.button-disable-gajihub:active {
+    color: var(--white);
+    background-color: var(--grey);
+    border-color: var(--grey);
+    box-shadow: none;
+}
+
+.button-disable-gajihub:focus {
+    color: var(--white);
+    background-color: var(--grey);
+    border-color: var(--grey);
+    box-shadow: none;
+}
+
+.button-disable-gajihub:not(:disabled):not(.disabled).active,
+.button-disable-gajihub:not(:disabled):not(.disabled):active,
+.show>.button-disable-gajihub.dropdown-toggle {
+    color: var(--white);
+    background-color: var(--grey);
+    border-color: var(--grey);
+}
+
+/* End Button Disable */
+
+/* Button Black */
+.button-black-gajihub {
+    color: var(--white);
+    background-color: var(--black);
+    border-color: var(--black);
+}
+
+.button-black-gajihub:hover {
+    color: var(--white);
+    background-color: var(--black);
+    border-color: var(--black);
+}
+
+.button-black-gajihub:active {
+    color: var(--white);
+    background-color: var(--black);
+    border-color: var(--black);
+}
+
+.button-black-gajihub:focus {
+    color: var(--white);
+    background-color: var(--black);
+    border-color: var(--black);
+    box-shadow: none;
+}
+
+.button-black-gajihub:not(:disabled):not(.disabled).active,
+.button-black-gajihub:not(:disabled):not(.disabled):active,
+.show>.button-black-gajihub.dropdown-toggle {
+    color: var(--white);
+    background-color: var(--black);
+    border-color: var(--black);
+}
+
+/* End Button Black */
+
+/* Button Primary Disabled */
+.button-primary-gajihub:disabled {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    opacity: 0.65;
+    pointer-events: none;
+}
+
+/* End Button Primary Disabled */
+
+/* Bedge Block */
+.bedge-block-gajihub {
+    padding: 7px 7px 7px 7px;
+    border-radius: 2rem;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: .071em;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* End Bedge Block */
+
+/* Bedge Primary */
+.bedge-primary-gajihub {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    text-decoration: none;
+}
+
+.bedge-primary-gajihub:hover {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    text-decoration: none;
+}
+
+.bedge-primary-gajihub:active {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    text-decoration: none;
+}
+
+.bedge-primary-gajihub:focus {
+    color: var(--white);
+    background-color: var(--primary);
+    border-color: var(--primary);
+    text-decoration: none;
+}
+
+/* End Bedge Primary */
+
+/* Form Control */
+.form-label-gajihub {
+    color: var(--black);
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-control-gajihub {
+    background-color: var(--whiteSoft);
+    color: var(--black);
+    border: none;
+    border-radius: 10rem;
+    padding: 8px 13px 8px 13px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: .071em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-control-gajihub:focus {
+    background-color: var(--whiteSoft);
+    color: var(--black);
+    outline: 0;
+    box-shadow: none;
+}
+
+textarea {
+    border-radius: 1.5rem !important;
+}
+
+select:required:invalid {
+    color: var(--grey);
+}
+
+option {
+    color: var(--primary);
+}
+
+/* End Form Control */
+
+/* Table */
+.table-responsive {
+    border-radius: 2rem;
+}
+
+.table {
+    margin-bottom: 0;
+    border-radius: 8px !important;
+    --bs-table-striped-bg: var(--whiteSoft);
+}
+
+.table>thead {
+    vertical-align: middle;
+}
+
+.table>tbody {
+    vertical-align: middle;
+}
+
+.table>:not(caption)>*>* {
+    padding: 1rem 1rem;
+}
+
+/* End Table */
+
+/* Modal */
+.modal-content {
+    background-color: var(--background);
+    border: none;
+    border-radius: 2rem;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-title {
+    color: var(--black);
+    font-size: 21px;
+    letter-spacing: .04px;
+    /* line-height: 1.870rem; */
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.modal-footer {
+    border: none;
+}
+
+/* End Modal */
+
+/* Offcanvas */
+.offcanvas {
+    background-color: var(--background);
+}
+
+.offcanvas-title {
+    color: var(--black);
+    font-size: 21px;
+    letter-spacing: .04px;
+    /* line-height: 1.870rem; */
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.offcanvas-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+/* End Offcanvas */
+
+/* Nav Pills */
+.nav-pills {
+    /* background-color: var(--white);
+    border-radius: 10rem; */
+    gap: 12px;
+}
+
+.nav-pills .nav-link {
+    color: var(--grey);
+    background-color: var(--white) !important;
+    border-radius: 10rem;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: .071em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-pills .nav-link.active {
+    color: var(--white);
+    background-color: var(--primary) !important;
+    font-weight: 500;
+}
+
+/* End Nav Pills */
+
+/* Dropdown */
+.dropdown-menu-gajihub {
+    background-color: var(--white) !important;
+    border: none;
+    border-radius: 2rem;
+}
+
+.dropdown-item-gajihub {
+    color: var(--black) !important;
+    font-size: 18px;
+    line-height: 1.870rem;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dropdown-item-gajihub:hover {
+    color: var(--primary) !important;
+    background-color: var(--white) !important;
+}
+
+.dropdown-item-gajihub:active {
+    color: var(--white) !important;
+    background-color: var(--primary) !important;
+}
+
+.dropdown-item-gajihub:focus {
+    color: var(--white) !important;
+    background-color: var(--primary) !important;
+}
+
+/* End Dropdown */
+
+/* Alert */
+.alert-gajihub {
+    padding: 1rem 1rem;
+    border-radius: 2rem;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* End Alert */
+
+/* Alert Primary */
+.alert-primary-gajihub {
+    color: var(--primary);
+    background-color: var(--whiteSoft);
+    border-color: var(--whiteSoft);
+}
+
+/* End Alert Primary */
+
+/* Scroll Horizontal */
+.scroll-horizontal-gajihub {
+    overflow-x: auto;
+}
+
+.scroll-horizontal-gajihub::-webkit-scrollbar {
+    display: none;
+}
+
+/* End Scroll Horizontal */
+
+/* No Select */
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* End No Select */
+
+/* Selection */
+::selection {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+::-moz-selection {
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+/* End Selection */
